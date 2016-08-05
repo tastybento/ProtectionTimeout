@@ -1,3 +1,20 @@
+/*******************************************************************************
+ * This file is part of ProtectionTimeout.
+ *
+ *     ProtectionTimeout is free software: you can redistribute it and/or modify
+ *     it under the terms of the GNU General Public License as published by
+ *     the Free Software Foundation, either version 2 of the License, or
+ *     (at your option) any later version.
+ *
+ *     ProtectionTimeout is distributed in the hope that it will be useful,
+ *     but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *     GNU General Public License for more details.
+ *
+ *     You should have received a copy of the GNU General Public License
+ *     along with ProtectionTimeout.  If not, see <http://www.gnu.org/licenses/>.
+ *******************************************************************************/
+
 package com.wasteofplastic.protectiontimeout;
 
 import java.util.HashMap;
@@ -12,7 +29,6 @@ import org.bukkit.event.Listener;
 import com.wasteofplastic.askyblock.Island;
 import com.wasteofplastic.askyblock.Island.Flags;
 import com.wasteofplastic.askyblock.events.IslandNewEvent;
-import com.wasteofplastic.askyblock.events.IslandResetEvent;
 
 public class NewIslandListener implements Listener {
 
@@ -94,7 +110,7 @@ public class NewIslandListener implements Listener {
         plugin.getConfig().set("timeouts." + event.getPlayer().getUniqueId().toString(), timeout);
         plugin.saveConfig();
     }
-
+/*
     @EventHandler(priority = EventPriority.NORMAL, ignoreCancelled = true)
     public void onNewIsland(final IslandResetEvent event) {
         // Set timeout
@@ -104,5 +120,5 @@ public class NewIslandListener implements Listener {
         plugin.getConfig().set("timeouts." + event.getPlayer().getUniqueId().toString(), timeout);
         plugin.saveConfig();
     }
-
+*/
 }
