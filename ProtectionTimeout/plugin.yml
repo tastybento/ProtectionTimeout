@@ -1,0 +1,6 @@
+name: ProtectionTimeout
+main: com.wasteofplastic.protectiontimeout.ProtectionTimeout
+version: ${version}
+description: Plugin for A SkyBlock to flip all protections on an island after a time
+author: tastybento
+depends: [ASkyBlock]

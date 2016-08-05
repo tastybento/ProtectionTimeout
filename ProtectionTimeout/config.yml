@@ -1,0 +1,36 @@
+# The allowFlags will be set 600 seconds after an island is made. 
+timeout: 600
+flags:
+   allowAnvilUse: true
+   allowArmorStandUse: true
+   allowBeaconAccess: true
+   allowBedUse: true
+   allowBreakBlocks: true
+   allowBreeding: true
+   allowBrewing: true
+   allowBucketUse: true
+   allowChestAccess: true
+   allowCrafting: true
+   allowCropTrample: true
+   allowDoorUse: true
+   allowEnchanting: true
+   allowEnderPearls: true
+   allowFurnaceUse: true
+   allowGateUse: true
+   allowHorseInvAccess: true
+   allowHorseRiding: true
+   allowHurtMobs: true
+   allowLeashUse: true
+   allowLeverButtonUse: true
+   allowMusic: true
+   allowPlaceBlocks: true
+   allowPortalUse: true
+   allowPressurePlate: true
+   allowPvP: true
+   allowNetherPvP: true
+   allowRedStone: true
+   allowShearing: true
+   allowVillagerTrading: true
+   allowChorusFruit: true
+
+   
